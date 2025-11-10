@@ -54,7 +54,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="IDENTIFIER" styleID="5" fgColor="{identifier}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CPU INSTRUCTION" styleID="6" fgColor="{instruction_word}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="MATH INSTRUCTION" styleID="7" fgColor="{instruction_word}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="REGISTER" styleID="8" fgColor="{identifier}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" keywordClass="type1" />
+            <WordsStyle name="REGISTER" styleID="8" fgColor="{identifier}" bgColor="{alt_background}" fontName="" fontStyle="1" fontSize="" keywordClass="type1" />
             <WordsStyle name="DIRECTIVE" styleID="9" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
             <WordsStyle name="DIRECTIVE OPERAND" styleID="10" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" keywordClass="type3" />
             <WordsStyle name="COMMENT BLOCK" styleID="11" fgColor="{comment_block}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
@@ -383,7 +383,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
         <LexerType name="makefile" desc="Makefile" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="2" fgColor="{preprocessor}" bgColor="default_background" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="2" fgColor="{preprocessor}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="3" fgColor="{subst_var}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="OPERATOR" styleID="4" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="TARGET" styleID="5" fgColor="{label}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
@@ -402,6 +402,28 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
         </LexerType>
         <LexerType name="nfo" desc="DOS Style" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="{light_text}" bgColor="{default_background}" />
+        </LexerType>
+        <LexerType name="php" desc="PHP" ext="">
+            <WordsStyle name="QUESTION MARK" styleID="18" fgColor="{decorator}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="118" fgColor="{default_foreground}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="119" fgColor="{string}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMPLEX VARIABLE" styleID="104" fgColor="{variable}" bgColor="{alt_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="{variable}" bgColor="{alt_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SIMPLE STRING" styleID="120" fgColor="{character}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="121" fgColor="{keyword}" bgColor="{alt_background}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="NUMBER" styleID="122" fgColor="{number}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="123" fgColor="{variable}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="124" fgColor="{comment}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="125" fgColor="{comment}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="127" fgColor="{operator}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREDEFINED" styleID="213" fgColor="{builtin}" bgColor="{alt_background}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle6" />
+            <WordsStyle name="FUNCS AND METHODS 1" styleID="214" fgColor="{builtin}" bgColor="{alt_background}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle7" />
+            <WordsStyle name="FUNCS AND METHODS 2" styleID="215" fgColor="{builtin}" bgColor="{alt_background}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle8" />
+            <WordsStyle name="USER KEYWORDS 1" styleID="208" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle1" />
+            <WordsStyle name="USER KEYWORDS 2" styleID="209" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle2" />
+            <WordsStyle name="USER KEYWORDS 3" styleID="210" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle3" />
+            <WordsStyle name="USER KEYWORDS 4" styleID="211" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle4" />
+            <WordsStyle name="USER KEYWORDS 5" styleID="212" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle5" />
         </LexerType>
         <LexerType name="powershell" desc="PowerShell" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
@@ -472,6 +494,33 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="CHECKSUM" styleID="16" fgColor="{style5}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHECKSUM_WRONG" styleID="17" fgColor="{error_fg}" bgColor="{error_bg}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="GARBAGE" styleID="18" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="2" fontSize="" />
+        </LexerType>
+        <LexerType name="typescript" desc="TypeScript" ext="">
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="{instruction_word}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="{type_word}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="WINDOW INSTRUCTION" styleID="19" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize=""/>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="{number}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="{string}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING RAW" styleID="20" fgColor="{string}" bgColor="{alt_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="{character}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="{operator}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="{verbatim}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="{regex}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle1" />
+            <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle2" />
+            <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle3" />
+            <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle4" />
+            <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle5" />
+            <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle6" />
+            <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle7" />
+            <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="1" fontSize="" keywordClass="substyle8" />
         </LexerType>
         <LexerType name="xml" desc="XML" ext="">
             <WordsStyle name="XML START" styleID="12" fgColor="{highlight_fg}" bgColor="{highlight_bg}" fontName="" fontStyle="0" fontSize="" />
