@@ -77,6 +77,7 @@
     "string_comp_block":"$string_block",
     "escape":"$blue",
     "verbatim":"$default_foreground",
+    "regex":"$default_foreground",
     "character":"$string",
     "number":"$orange",
     "identifier":"$default_foreground",
