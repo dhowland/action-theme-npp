@@ -10,6 +10,8 @@
     "alt_background":"$gray93",
     "important":"$red",
     "unimportant":"$gray20",
+    "minus":"$red",
+    "plus":"$green",
     
     "indent_guidline":"$selected_background",
     "brace_highlight":"$pure_red",
