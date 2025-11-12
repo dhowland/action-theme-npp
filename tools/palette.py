@@ -7,9 +7,13 @@ import os.path
 # g_vals = ('77', 'BB', 'FF')
 # b_vals = ('77', 'BB', 'FF')
 # crude luminance balance that deepens blues
-r_vals = ('66', 'B3', 'FF')
-g_vals = ('55', 'AA', 'FF')
-b_vals = ('77', 'BB', 'FF')
+# r_vals = ('66', 'B3', 'FF')
+# g_vals = ('55', 'AA', 'FF')
+# b_vals = ('77', 'BB', 'FF')
+# relevel for slightly gray text
+r_vals = ('5D', 'B2', 'EE')
+g_vals = ('55', 'AA', 'EE')
+b_vals = ('66', 'BB', 'EE')
 
 # 12 color wheel (primary, secondary, tertiary)
 colors = {
