@@ -17,7 +17,7 @@
     "brace_highlight":"$pure_red",
     "bad_brace":"$red",
     "current_line_background":"$gray80",
-    "selected_background":"$gray73",
+    "selected_background":"#554455",
     "caret":"$gray27",
     "multi_caret":"$gray27",
     "edge":"$gray67",
