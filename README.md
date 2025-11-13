@@ -6,6 +6,8 @@ This theme came about as a result of my disappointment with the readability of m
 
 The color scheme is mostly based on the Notepad++ default theme and VS Dark.
 
+![Screenshot](example.png?raw=true "Screenshot")
+
 ## Simplified Styling System
 
 The Notepad++ stylers system includes over 1800 lines of settings in XML, each requiring one or two RGB color codes.  *Action* comes with tooling that simplifies color themes down to about 100 settings, half of which are UI colors and the other half language syntax colors.  This simplified set is then applied to all the languages that Notepad++ supports.  This process reduces the flexibility of the theme somewhat, but also automatically standardizes the theme across languages.  In addition, the tool allow the definition of color names to make themes easier to work with.
