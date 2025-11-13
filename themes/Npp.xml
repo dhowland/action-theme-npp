@@ -488,7 +488,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="DOUBLE QUOTE STRING" styleID="8" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="nfo" desc="DOS Style" ext="">
-            <WordsStyle name="DEFAULT" styleID="32" fgColor="2E2E2E" bgColor="FFFFFF" />
+            <WordsStyle name="DEFAULT" styleID="32" fgColor="404040" bgColor="FFFFFF" />
         </LexerType>
         <LexerType name="nim" desc="Nim" ext="">
             <WordsStyle name="WHITE SPACE" styleID="0" fgColor="404040" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
@@ -674,7 +674,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
         </LexerType>
         <LexerType name="rust" desc="Rust" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="WHITESPACE" styleID="0" fgColor="2E2E2E" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="WHITESPACE" styleID="0" fgColor="FFB56A" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BLOCK COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LINE COMMENT" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BLOCK DOC COMMENT" styleID="3" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />

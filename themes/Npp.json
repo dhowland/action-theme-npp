@@ -60,7 +60,6 @@
     "search_hit_word_fg":"$red",
     "search_hit_word_bg":"#FFFFBF",
     
-    "light_text":"$gray82",
     "error_fg":"$red",
     "error_bg":"$default_background",
     "highlight_fg":"$default_foreground",
