@@ -54,14 +54,25 @@ with open(output_path, 'w') as f:
         print(f'Error: style {str(e)} not found')
         sys.exit(1)
 
+bg = theme['default_background']
+fg = theme['default_foreground']
 root,ext = os.path.splitext(output_path)
 colors_path = root + '_colors.html'
 with open(colors_path, 'w') as f:
     f.write('<html>\n')
-    f.write('<body>\n')
+    f.write(f'<body style="background-color:#{bg};color:#{fg};">\n')
     f.write('<table>\n')
     for key,val in theme.items():
-        f.write(f'<tr><td>{key}</td><td bgcolor="{val}">{val}</td></tr>')
+        if 'default_font' in key:
+            continue
+        if m := re.match(r"([a-zA-Z_]+)_[bf]g$", key):
+            tbg = theme[m.group(1) + '_bg']
+            tfg = theme[m.group(1) + '_fg']
+            f.write(f'<tr><td>{key}</td><td style="background-color:#{tbg};color:#{tfg};">{val}</td></tr>')
+        elif 'background' in key:
+            f.write(f'<tr><td>{key}</td><td style="background-color:#{val};color:#{fg};">{val}</td></tr>')
+        else:
+            f.write(f'<tr><td>{key}</td><td style="background-color:#{bg};color:#{val};">{val}</td></tr>')
     f.write('</table>\n')
     f.write('</body>\n')
     f.write('</html>\n')

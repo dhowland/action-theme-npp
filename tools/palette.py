@@ -7,29 +7,45 @@ import os.path
 # g_vals = ('77', 'BB', 'FF')
 # b_vals = ('77', 'BB', 'FF')
 # crude luminance balance that deepens blues
-# r_vals = ('66', 'B3', 'FF')
-# g_vals = ('55', 'AA', 'FF')
-# b_vals = ('77', 'BB', 'FF')
-# relevel for slightly gray text
-r_vals = ('5D', 'B2', 'EE')
-g_vals = ('55', 'AA', 'EE')
-b_vals = ('66', 'BB', 'EE')
+r_vals = ('66', 'B3', 'FF')
+g_vals = ('55', 'AA', 'FF')
+b_vals = ('77', 'BB', 'FF')
 
-# 12 color wheel (primary, secondary, tertiary)
 colors = {
-    'pink'   : (2,0,1),
-    'red'    : (2,0,0),     # primary   (R)
-    'orange' : (2,1,0),
-    'yellow' : (2,2,0),     # secondary (Y)
-    'mint'   : (1,2,0),
-    'green'  : (0,2,0),     # primary   (G)
-    'aqua'   : (0,2,1),
-    'cyan'   : (0,2,2),     # secondary (C)
-    'blue'   : (0,1,2),
-    'indigo' : (0,0,2),     # primary   (B)
-    'purple' : (1,0,2),
-    'magenta': (2,0,2),     # secondary (M)
+    # 'dark'       : (0,0,0),
+    'violet'     : (0,0,1),
+    'indigo'     : (0,0,2),     # primary   (B)
+    'blue'       : (0,1,2),
+    'teal'       : (0,1,1),
+    'hunter'     : (0,1,0),
+    'green'      : (0,2,0),     # primary   (G)
+    'aqua'       : (0,2,1),
+    'cyan'       : (0,2,2),     # secondary (C)
+    'sky'        : (1,2,2),
+    'mint'       : (1,2,1),
+    'lime'       : (1,2,0),
+    'olive'      : (1,1,0),
+    # 'gray'       : (1,1,1),
+    'periwinkle' : (1,1,2),
+    'purple'     : (1,0,2),
+    'plum'       : (1,0,1),
+    'rose'       : (1,0,0),
+    'red'        : (2,0,0),     # primary   (R)
+    'pink'       : (2,0,1),
+    'magenta'    : (2,0,2),     # secondary (M)
+    'mauve'      : (2,1,2),
+    'coral'      : (2,1,1),
+    'orange'     : (2,1,0),
+    'yellow'     : (2,2,0),     # secondary (Y)
+    'cream'      : (2,2,1),
+    # 'light'      : (2,2,2),
 }
+
+def luminance(r, g, b):
+    def norm(v):
+        v = int(v, 16)
+        return pow((v/0xff), 2.2)
+    return (0.2126 * norm(r) + 0.7152 * norm(g) + 0.0722 * norm(b))
 
 if len(sys.argv) != 2:
     print("usage: python palette.py <output_path>")
@@ -41,24 +57,26 @@ with open(output_path, 'w') as f:
     f.write('<html>\n')
     f.write('<body>\n')
     
-    f.write('<table>\n')
-    f.write('<tr><td>R/GB</td>')
-    for v in r_vals:
-        f.write(f'<td>{v}</td>')
-    f.write('</tr>\n')
-    for g in g_vals:
-        for b in b_vals:
-            f.write(f'<tr><td>{g}{b}</td>')
-            for r in r_vals:
-                f.write(f'<td bgcolor="{r}{g}{b}">{r}{g}{b}</td>')
-            f.write('</tr>\n')
-    f.write('</table>\n')
+    # f.write('<table>\n')
+    # f.write('<tr><td>R/GB</td>')
+    # for v in r_vals:
+        # f.write(f'<td>{v}</td>')
+    # f.write('</tr>\n')
+    # for g in g_vals:
+        # bv = reversed(b_vals) if g == g_vals[1] else b_vals
+        # for b in bv:
+            # f.write(f'<tr><td>{g}{b}</td>')
+            # for r in r_vals:
+                # f.write(f'<td bgcolor="{r}{g}{b}">{r}{g}{b}</td>')
+            # f.write('</tr>\n')
+    # f.write('</table>\n')
     
     f.write('<table>')
     for color in colors:
         ri,gi,bi = colors[color]
         r,g,b = (r_vals[ri], g_vals[gi], b_vals[bi])
-        f.write(f'<tr><td bgcolor="{r}{g}{b}">"{color}":"#{r}{g}{b}",</td></tr>\n')
+        y = luminance(r, g, b)
+        f.write(f'<tr><td>{y:.2f}</td><td bgcolor="{r}{g}{b}">"{color}":"#{r}{g}{b}",</td></tr>\n')
     f.write('</table>\n')
     
     f.write('</body>\n')
