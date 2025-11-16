@@ -17,7 +17,7 @@
     "brace_highlight":"$pure_red",
     "bad_brace":"$red",
     "current_line_background":"$gray80",
-    "selected_background":"#554455",
+    "selected_background":"$gray67",
     "caret":"$gray27",
     "multi_caret":"$gray27",
     "edge":"$gray67",
@@ -60,8 +60,8 @@
     "search_hit_word_fg":"$red",
     "search_hit_word_bg":"$current_line_background",
     
-    "error_fg":"$red",
-    "error_bg":"$default_background",
+    "error_fg":"$gray80",
+    "error_bg":"$red",
     "highlight_fg":"$gray80",
     "highlight_bg":"$yellow",
     
@@ -103,6 +103,9 @@
     "tag":"$mint",
     "tag_attribute":"$mauve",
     "tag_string":"$periwinkle",
+    "css_id":"$lime",
+    "css_class":"$sky",
+    "css_pseudo":"$olive",
     
     "style1":"$blue",
     "style2":"$orange",

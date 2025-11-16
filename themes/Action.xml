@@ -43,7 +43,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="STRING" styleID="7" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LABEL" styleID="9" fgColor="66FFFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="10" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ILLEGAL" styleID="11" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ILLEGAL" styleID="11" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="asm" desc="Assembly" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -63,7 +63,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
         </LexerType>
         <LexerType name="bash" desc="Bash" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ERROR" styleID="1" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="1" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="66AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="3" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="5" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -205,15 +205,15 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
         <LexerType name="css" desc="CSS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TAG" styleID="1" fgColor="B3FFBB" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS" styleID="2" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="CLASS" styleID="2" fgColor="B3FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="B3AA77" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
             <WordsStyle name="UNKNOWN PSEUDOCLASS" styleID="4" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="OPERATOR" styleID="5" fgColor="FFFF77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="6" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="UNKNOWN IDENTIFIER" styleID="7" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="VALUE" styleID="8" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ID" styleID="10" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="ID" styleID="10" fgColor="B3FF77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="IMPORTANT" styleID="11" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="DIRECTIVE" styleID="12" fgColor="66FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOUBLE STRING" styleID="13" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -221,10 +221,10 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <!--WordsStyle name="IDENTIFIER2" styleID="15" fgColor="0040E0" bgColor="222222" fontName="" fontStyle="0" fontSize="" /-->
             <WordsStyle name="ATTRIBUTE" styleID="16" fgColor="66FFBB" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <!--WordsStyle name="IDENTIFIER3" styleID="17" fgColor="00A0E0" bgColor="222222" fontName="" fontStyle="0" fontSize="" /-->
-            <WordsStyle name="PSEUDOELEMENT" styleID="18" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type3"/>
+            <WordsStyle name="PSEUDOELEMENT" styleID="18" fgColor="B3AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type3"/>
             <!--WordsStyle name="EXTENDED_IDENTIFIER" styleID="19" fgColor="7F7F00" bgColor="222222" fontName="" fontStyle="0" fontSize="" /-->
             <!-- LEGACY_PSEUDOELEMENT == EXTENDED_PSEUDOCLASS -->
-            <WordsStyle name="LEGACY PSEUDOELEMENT" styleID="20" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+            <WordsStyle name="LEGACY PSEUDOELEMENT" styleID="20" fgColor="B3AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
             <!--WordsStyle name="EXTENDED_PSEUDOELEMENT" styleID="21" fgColor="7F7F00" bgColor="222222" fontName="" fontStyle="0" fontSize="" /-->
             <WordsStyle name="MEDIA" styleID="22" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="VARIABLE" styleID="23" fgColor="66AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -439,7 +439,22 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="COMPACT IRI" styleID="10" fgColor="0000FF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="KEYWORD" styleID="11" fgColor="66AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1"/>
             <WordsStyle name="LD KEYWORD" styleID="12" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="ERROR" styleID="13" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="13" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+        <LexerType name="latex" desc="LaTeX" ext="">
+            <WordsStyle name="WHITE SPACE" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="1" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="TAG OPENING" styleID="2" fgColor="B3FFBB" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="MATH INLINE" styleID="3" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="4" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG CLOSING" styleID="5" fgColor="B3FFBB" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="MATH BLOCK" styleID="6" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT BLOCK" styleID="7" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VERBATIM SEGMENT" styleID="8" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SHORT COMMAND" styleID="9" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SPECIAL CHAR" styleID="10" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND OPTIONAL ARGUMENT" styleID="11" fgColor="66FFBB" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYNTAX ERROR" styleID="12" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="lua" desc="Lua" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -651,7 +666,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
         </LexerType>
         <LexerType name="ruby" desc="Ruby" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ERROR" styleID="1" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="1" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="POD" styleID="3" fgColor="004000" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -694,7 +709,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="IDENTIFIER" styleID="17" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LIFETIME" styleID="18" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="MACRO" styleID="19" fgColor="66FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BYTE STRING" styleID="21" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -705,9 +720,9 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="RECSTART" styleID="1" fgColor="66AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="RECTYPE" styleID="2" fgColor="66AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="RECTYPE_UNKNOWN" styleID="3" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="RECTYPE_UNKNOWN" styleID="3" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="BYTECOUNT" styleID="4" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BYTECOUNT_WRONG" styleID="5" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTECOUNT_WRONG" styleID="5" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NOADDRESS" styleID="6" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DATAADDRESS" styleID="7" fgColor="66FF77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="RECCOUNT" styleID="8" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -719,7 +734,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="DATA_UNKNOWN" styleID="14" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="DATA_EMPTY" styleID="15" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHECKSUM" styleID="16" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHECKSUM_WRONG" styleID="17" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHECKSUM_WRONG" styleID="17" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="GARBAGE" styleID="18" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="2" fontSize="" />
         </LexerType>
         <LexerType name="swift" desc="Swift" ext="">
@@ -758,7 +773,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="NUMBER" styleID="4" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TABLE" styleID="5" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="KEY" styleID="6" fgColor="66AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="ERROR" styleID="7" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="7" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="OPERATOR" styleID="8" fgColor="FFFF77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="STRING SQ" styleID="9" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="STRING DQ" styleID="10" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
@@ -833,7 +848,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="REFERENCE" styleID="5" fgColor="66FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOCUMENT" styleID="6" fgColor="66AABB" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TEXT" styleID="7" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="ERROR" styleID="8" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ERROR" styleID="8" fgColor="333333" bgColor="FF5577" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
             <WordsStyle name="Search Header" styleID="1" fgColor="FFFFFF" bgColor="888888" fontName="" fontStyle="1" fontSize="" />
@@ -846,13 +861,13 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
         <WidgetStyle name="Default Style" styleID="32" fgColor="EEEEEE" bgColor="222222" fontName="Consolas" fontStyle="0" fontSize="10" />
-        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="554455" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="555555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FF0000" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="333333" />
         <!-- In below rule 'fgColor' attribute for 'Selected text colour' can be unlocked with a enableSelectFgColor.xml file -->
-        <WidgetStyle name="Selected text colour" styleID="0" bgColor="554455" fgColor="EEEEEE" />
-        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="554455" />
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="555555" fgColor="EEEEEE" />
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="555555" />
         <WidgetStyle name="Caret colour" styleID="0" fgColor="BBBBBB" />
         <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="BBBBBB" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="555555" />
