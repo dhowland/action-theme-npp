@@ -85,6 +85,7 @@
     "identifier":"$default_foreground",
     "variable":"$default_foreground",
     "subst_var":"$blue",
+    "map_var":"$pale_blue",
     "global":"$navy",
     "type_word":"$purple",
     "operator":"$navy",

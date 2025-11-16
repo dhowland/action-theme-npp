@@ -85,6 +85,7 @@
     "identifier":"$default_foreground",
     "variable":"$blue",
     "subst_var":"$orange",
+    "map_var":"$sky",
     "global":"$aqua",
     "type_word":"$purple",
     "operator":"$yellow",
