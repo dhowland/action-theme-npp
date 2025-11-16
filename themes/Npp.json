@@ -103,6 +103,9 @@
     "tag":"$blue",
     "tag_attribute":"$red",
     "tag_string":"$purple",
+    "css_id":"$azure",
+    "css_class":"$red",
+    "css_pseudo":"$orange",
     
     "style1":"$blue",
     "style2":"$orange",
