@@ -852,6 +852,16 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="333333" bgColor="FFFF77" fontName="" fontStyle="1" fontSize="" keywordClass="substyle7" />
             <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="333333" bgColor="FFFF77" fontName="" fontStyle="1" fontSize="" keywordClass="substyle8" />
         </LexerType>
+        <LexerType name="vb" desc="VB / VBS" ext="">
+            <WordsStyle name="DEFAULT" styleID="7" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="WORD" styleID="3" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STRING" styleID="4" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="66FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="6" fgColor="FFFF77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DATE" styleID="8" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="xml" desc="XML" ext="">
             <WordsStyle name="XML START" styleID="12" fgColor="333333" bgColor="FFFF77" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="XML END" styleID="13" fgColor="333333" bgColor="FFFF77" fontName="" fontStyle="0" fontSize="" />
