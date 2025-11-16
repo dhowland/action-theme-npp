@@ -180,6 +180,23 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="333333" bgColor="FFFF77" fontName="" fontStyle="1" fontSize="" keywordClass="substyle7" />
             <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="333333" bgColor="FFFF77" fontName="" fontStyle="1" fontSize="" keywordClass="substyle8" />
         </LexerType>
+        <LexerType name="caml" desc="Caml" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="1" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGNAME" styleID="2" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="3" fgColor="66AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="BUILIN FUNC &amp; TYPE" styleID="4" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="TYPE" styleID="5" fgColor="B355FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="LINENUM" styleID="6" fgColor="66FFFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="7" fgColor="FFFF77" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="8" fgColor="FF5577" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="9" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="11" fgColor="FFAA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="12" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="13" fgColor="66AA77" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="14" fgColor="66AABB" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="66AABB" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="coffeescript" desc="CoffeeScript" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="66FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
