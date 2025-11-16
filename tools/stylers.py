@@ -3,6 +3,7 @@ import re
 import sys
 import json
 import os.path
+from collections import defaultdict
 
 if len(sys.argv) != 4:
     print("usage: python stylers.py <stylers_template> <input_json> <output_xml>")
@@ -45,6 +46,11 @@ while dirty:
         else:
             print(f'Error: invalid color spec {val}')
             sys.exit(1)
+
+uses = defaultdict(set)
+for key,val in theme.items():
+    uses[val].add(key)
+
 theme.update(config['font'])
 
 with open(output_path, 'w') as f:
@@ -61,7 +67,7 @@ colors_path = root + '_colors.html'
 with open(colors_path, 'w') as f:
     f.write('<html>\n')
     f.write(f'<body style="background-color:#{bg};color:#{fg};">\n')
-    f.write('<table>\n')
+    f.write('Styles:\n<table>\n')
     for key,val in theme.items():
         if 'default_font' in key:
             continue
@@ -73,6 +79,13 @@ with open(colors_path, 'w') as f:
             f.write(f'<tr><td>{key}</td><td style="background-color:#{val};color:#{fg};">{val}</td></tr>')
         else:
             f.write(f'<tr><td>{key}</td><td style="background-color:#{bg};color:#{val};">{val}</td></tr>')
+    f.write('</table>\n')
+    f.write('<p>\nColors:\n<table>\n')
+    for color,val in colors.items():
+        if val.startswith('#'):
+            val = val[1:]
+        if val in uses:
+            f.write(f'<tr><td style="background-color:#{bg};color:#{val};">{color}</td><td>{", ".join(uses[val])}</td></tr>')
     f.write('</table>\n')
     f.write('</body>\n')
     f.write('</html>\n')
