@@ -229,6 +229,30 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="MEDIA" styleID="22" fgColor="{decorator}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="VARIABLE" styleID="23" fgColor="{variable}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="d" desc="D" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="14" fgColor="{identifier}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="6" fgColor="{instruction_word}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="KEYWORD1" styleID="7" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="instre2"/>
+            <WordsStyle name="KEYWORD2" styleID="8" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="type1"/>
+            <WordsStyle name="KEYWORD3" styleID="9" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="type2"/>
+            <WordsStyle name="KEYWORD4" styleID="20" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="type3"/>
+            <WordsStyle name="KEYWORD5" styleID="21" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="type4"/>
+            <WordsStyle name="KEYWORD6" styleID="22" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" keywordClass="type5"/>
+            <WordsStyle name="NUMBER" styleID="5" fgColor="{number}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="10" fgColor="{string}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="12" fgColor="{character}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="13" fgColor="{operator}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT NESTED" styleID="4" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="17" fgColor="{comment_doc}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING B" styleID="18" fgColor="{string}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING R" styleID="19" fgColor="{string}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="diff" desc="diff file" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
@@ -284,7 +308,7 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="ANSI COLOR WHITE" styleID="55" fgColor="FFFFFF" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="fortran" desc="Fortran (free form)" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{default_foreground}" bgColor="{default_backgrounddefault_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="{number}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="3" fgColor="{string}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
