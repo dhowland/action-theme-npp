@@ -74,18 +74,20 @@ with open(colors_path, 'w') as f:
         if m := re.match(r"([a-zA-Z_]+)_[bf]g$", key):
             tbg = theme[m.group(1) + '_bg']
             tfg = theme[m.group(1) + '_fg']
-            f.write(f'<tr><td>{key}</td><td style="background-color:#{tbg};color:#{tfg};">{val}</td></tr>')
+            f.write(f'<tr><td>{key}</td><td style="background-color:#{tbg};color:#{tfg};">{val}</td></tr>\n')
         elif 'background' in key:
-            f.write(f'<tr><td>{key}</td><td style="background-color:#{val};color:#{fg};">{val}</td></tr>')
+            f.write(f'<tr><td>{key}</td><td style="background-color:#{val};color:#{fg};">{val}</td></tr>\n')
         else:
-            f.write(f'<tr><td>{key}</td><td style="background-color:#{bg};color:#{val};">{val}</td></tr>')
+            f.write(f'<tr><td>{key}</td><td style="background-color:#{bg};color:#{val};">{val}</td></tr>\n')
     f.write('</table>\n')
     f.write('<p>\nColors:\n<table>\n')
     for color,val in colors.items():
         if val.startswith('#'):
             val = val[1:]
         if val in uses:
-            f.write(f'<tr><td style="background-color:#{bg};color:#{val};">{color}</td><td>{", ".join(uses[val])}</td></tr>')
+            f.write(f'<tr><td style="background-color:#{bg};color:#{val};">{color}</td><td>{", ".join(uses[val])}</td></tr>\n')
+        else:
+            f.write(f'<tr><td style="background-color:#{bg};color:#{val};">{color}</td><td></td></tr>\n')
     f.write('</table>\n')
     f.write('</body>\n')
     f.write('</html>\n')
