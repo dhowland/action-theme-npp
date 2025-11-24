@@ -7,9 +7,14 @@ import os.path
 # g_vals = ('77', 'BB', 'FF')
 # b_vals = ('77', 'BB', 'FF')
 # crude luminance balance that deepens blues
-r_vals = ('66', 'B3', 'FF')
+# r_vals = ('66', 'B3', 'FF')
+# g_vals = ('55', 'AA', 'FF')
+# b_vals = ('77', 'BB', 'FF')
+# even spacing, but deeper
+r_vals = ('55', 'AA', 'FF')
 g_vals = ('55', 'AA', 'FF')
-b_vals = ('77', 'BB', 'FF')
+b_vals = ('55', 'AA', 'FF')
+
 
 colors = {
     # 'dark'       : (0,0,0),
