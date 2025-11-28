@@ -1146,6 +1146,63 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="OPERATOR" styleID="6" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="DATE" styleID="8" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+       <LexerType name="verilog" desc="Verilog" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="KEYWORD" styleID="7" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="55FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE BANG" styleID="3" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="USER" styleID="19" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+        <LexerType name="vhdl" desc="VHDL" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE BANG" styleID="2" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT BLOCK" styleID="15" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="4" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING EOL" styleID="7" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION" styleID="8" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STD OPERATOR" styleID="9" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="ATTRIBUTE" styleID="10" fgColor="55FFAA" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type1" />
+            <WordsStyle name="STD FUNCTION" styleID="11" fgColor="FFFFAA" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
+            <WordsStyle name="STD PACKAGE" styleID="12" fgColor="FFAAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="STD TYPE" styleID="13" fgColor="AA55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+            <WordsStyle name="USER DEFINE" styleID="14" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+        </LexerType>
+        <LexerType name="visualprolog" desc="Visual Prolog" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MAJOR" styleID="1" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="MINOR" styleID="2" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="DIRECTIVE" styleID="3" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="COMMENT BLOCK" styleID="4" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="5" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT KEY" styleID="6" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="COMMENT KEY ERROR" styleID="7" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="8" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="9" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ANONYMOUS" styleID="10" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="11" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="12" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="13" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER TOO MANY" styleID="14" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER ESCAPE ERROR" styleID="15" fgColor="333333" bgColor="FF5555" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="16" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING ESCAPE" styleID="17" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING ESCAPE ERROR" styleID="18" fgColor="333333" bgColor="FF5555" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING EOL OPEN" styleID="19" fgColor="333333" bgColor="FF5555" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING VERBATIM" styleID="20" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING VERBATIM SPECIAL" styleID="21" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING VERBATIM EOL" styleID="22" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="xml" desc="XML" ext="">
             <WordsStyle name="XML START" styleID="12" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="XML END" styleID="13" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="0" fontSize="" />
