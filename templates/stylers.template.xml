@@ -1165,6 +1165,14 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="COMMENT BOX" styleID="17" fgColor="{comment_block}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="BLOCK COMMENT" styleID="18" fgColor="{comment_block}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="tex" desc="TeX" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SPECIAL" styleID="1" fgColor="{builtin}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="GROUP" styleID="2" fgColor="{type_word}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="3" fgColor="{operator}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="4" fgColor="{keyword}" bgColor="{default_background}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="TEXT" styleID="5" fgColor="{default_foreground}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="toml" desc="TOML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{important}" bgColor="{default_background}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{comment}" bgColor="{default_background}" fontName="" fontStyle="2" fontSize="" />

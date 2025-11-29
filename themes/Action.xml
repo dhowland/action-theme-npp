@@ -1165,6 +1165,14 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="COMMENT BOX" styleID="17" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="BLOCK COMMENT" styleID="18" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="tex" desc="TeX" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SPECIAL" styleID="1" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="GROUP" styleID="2" fgColor="AA55FF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="3" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="4" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="TEXT" styleID="5" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="toml" desc="TOML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="2" fontSize="" />
