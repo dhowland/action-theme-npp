@@ -1092,6 +1092,24 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle7" />
             <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle8" />
         </LexerType>
+        <LexerType name="tcl" desc="TCL" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MODIFIER" styleID="10" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="EXPAND" styleID="11" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="12" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="TYPE WORD" styleID="13" fgColor="AA55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SUB BRACE" styleID="9" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SUBSTITUTION" styleID="8" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="6" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="7" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="WORD IN QUOTE" styleID="4" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IN QUOTE" styleID="5" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT BOX" styleID="17" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="BLOCK COMMENT" styleID="18" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="toml" desc="TOML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="2" fontSize="" />
