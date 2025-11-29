@@ -841,6 +841,14 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="HERE CHARACTER" styleID="15" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type4" />
         </LexerType>
+        <LexerType name="props" desc="Properties file" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SECTION" styleID="2" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DEFVAL" styleID="4" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEY" styleID="5" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="2" fontSize="" />
+        </LexerType>
         <LexerType name="purebasic" desc="PureBasic" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -937,6 +945,34 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="CALLABLE" styleID="26" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="GRAMMAR" styleID="27" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CLASS" styleID="28" fgColor="FFAAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+        <LexerType name="rc" desc="Resource file" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="55FFFF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="AA55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFF55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="55AAAA" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle1" />
+            <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle2" />
+            <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle3" />
+            <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle4" />
+            <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle5" />
+            <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle6" />
+            <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle7" />
+            <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="333333" bgColor="FFFF55" fontName="" fontStyle="1" fontSize="" keywordClass="substyle8" />
         </LexerType>
         <LexerType name="registry" desc="Registry" ext="">
             <WordsStyle name="DEFAULT STYLE" styleID="32" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
