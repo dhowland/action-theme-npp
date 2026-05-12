@@ -2,7 +2,7 @@
 <!--
 Template based on stylers.model.xml from Notepad++ 8.8.7
 -->
-<NotepadPlus>
+<NotepadPlus modelDate="20251203">
     <LexerStyles>
         <LexerType name="actionscript" desc="ActionScript" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -1150,9 +1150,11 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
         <LexerType name="tcl" desc="TCL" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="MODIFIER" styleID="10" fgColor="FF55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="EXPAND" styleID="11" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="12" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPE WORD" styleID="13" fgColor="AA55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="EXPAND" styleID="11" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="TCL KEYWORD" styleID="12" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="iTCL KEYWORD" styleID="13" fgColor="AA55FF" bgColor="222222" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="TK KEYWORD" styleID="14" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="TK COMMAND" styleID="15" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
             <WordsStyle name="NUMBER" styleID="3" fgColor="FF5555" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SUB BRACE" styleID="9" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SUBSTITUTION" styleID="8" fgColor="FFAA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
@@ -1162,8 +1164,12 @@ Template based on stylers.model.xml from Notepad++ 8.8.7
             <WordsStyle name="IN QUOTE" styleID="5" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT BOX" styleID="17" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="BLOCK COMMENT" styleID="18" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT BOX" styleID="20" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="BLOCK COMMENT" styleID="21" fgColor="55AA55" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="USER1" styleID="16" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type4" />
+            <WordsStyle name="USER2" styleID="17" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type5" />
+            <WordsStyle name="USER3" styleID="18" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type6" />
+            <WordsStyle name="USER4" styleID="19" fgColor="55AAFF" bgColor="222222" fontName="" fontStyle="1" fontSize="" keywordClass="type7" />
         </LexerType>
         <LexerType name="tex" desc="TeX" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="EEEEEE" bgColor="222222" fontName="" fontStyle="0" fontSize="" />
