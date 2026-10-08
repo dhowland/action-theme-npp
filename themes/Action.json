@@ -46,7 +46,7 @@
     "active_tab_text":"$default_foreground",
     "inactive_tabs_fg":"$gray53",
     "inactive_tabs_bg":"$gray27",
-    "url_hovered":"$pure_blue",
+    "url_hovered":"$blue",
     "document_map_fg":"$gray73",
     "document_map_bg":"$default_background",
     "eol_custom":"$gray20",
